@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link type="text/css" href="css/materialize.css" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<style>
+		* {
+			margin: 0;
+		}
+
+	</style>
+</head>
+
+<body>
+
+	<div class="slider fullscreen">
+		<ul class="slides">
+			<li>
+				<img src="images.jpg">
+				<!-- random image -->
+				<div class="caption center-align">
+					<h3>Владимир Слепцов</h3>
+					<h5 class="light grey-text text-lighten-3">Начинающий программист</h5>
+				<a href="me.html">Посмотреть информацию обо мне</a>
+				</div>
+			</li>
+			<li>
+				
+				
+				<img src="bg.jpg">
+				<!-- random image -->
+				<div class="caption left-align">
+					<h3>Владимир Слепцов</h3>
+					<h5 class="light grey-text text-lighten-3"> </h5>
+					<a href="achievements.html">мои достижения</a>
+				</div>
+			</li>
+			<li>
+				<img src="images(2).jpg">
+				<!-- random image -->
+				<div class="caption right-align">
+					<h3>Владимир Слепцов</h3>
+					<a href="my_work.html">мои работы</a>
+				</div>
+			</li>
+		</ul>
+	</div>
+	<nav class="purple lighten-1">
+		<div class="new-wrapper purple lighten-1">
+			<a href="index.html" class="brand-logo">
+				<p class="flow-text asd">My portfolio</p>
+			</a>
+			<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+			<ul class="right hide-on-med-and-down">
+
+				<li><a href="achievements.html" class="white-text">Мои достижения <i class="material-icons">face</i></a></li>
+
+				<li><a href="my_work.html" class="white-text">Мои работы<i class="material-icons"></i></a></li>
+
+			</ul>
+
+			<ul class="side-nav purple lighten-1" id="mobile-demo">
+				<li><a href="achievements.html" class="white-text">Мои достижения<i class="material-icons">face</i></a></li>
+
+				<li><a href="my_work.html" class="white-text">Мои работы<i class="material-icons">work
+					</i></a></li>
+			</ul>
+
+
+		</div>
+
+	</nav>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="js/materialize.js"></script>
+	<script>
+		$(document).ready(function() {
+			$(".button-collapse").sideNav();
+			$('.slider').slider();
+		});
+
+	</script>
+</body>
+
+</html>

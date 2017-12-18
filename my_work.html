@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link type="text/css" href="css/materialize.css" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<style>
+		* {
+			margin: 0;
+		}
+
+	</style>
+</head>
+
+<body>
+	<nav class="indigo">
+		<div class="new-wrapper indigo">
+			<a href="index.html" class="brand-logo">
+				<p class="flow-text asd">My portfolio</p>
+
+			</a>
+			<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+			<ul class="right hide-on-med-and-down">
+
+				<li><a href="achievements.html" class="white-text">Мои достижения <i class="material-icons"></i></a></li>
+
+				<li><a href="my_work.html" class="white-text">Мои работы<i class="material-icons"></i></a></li>
+				<li><a href="me.html" class="white-text">Oбо мне<i class="material-icons"></i></a></li>
+
+			</ul>
+
+			<ul class="side-nav indigo" id="mobile-demo">
+				<li><a href="achievements.html" class="white-text">Мои достижения<i class="material-icons">face</i></a></li>
+
+				<li><a href="my_work.html" class="white-text">Мои работы<i class="material-icons">work
+					</i></a></li>
+				<li><a href="me.html" class="white-text">Oбо мне<i class="material-icons">account_box</i></a></li>
+			</ul>
+
+
+		</div>
+
+	</nav>
+	<div class="col s12 m6">
+
+			<div class="card">
+				<div class="card-image waves-effect waves-block waves-light">
+					<img class="activator" src="game.png">
+				</div>
+				<div class="card-content">
+					<span class="card-title activator grey-text text-darken-4">Моя работы <i class="material-icons right">more_vert</i></span>
+				</div>
+				<div class="card-reveal">
+					<span class="card-title grey-text text-darken-4">Моя игра<i class="material-icons right">close</i></span>
+					<p>Эту игру я 5 с половиной часов. Эта игра сделана на Phaser.И ты сможешь по играть в эту игру   </p>
+					<a href="my_game/index.html">Сыграть в эту игру</a>
+				</div>
+			</div>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="js/materialize.js"></script>
+	<script>
+		$(document).ready(function() {
+			$(".button-collapse").sideNav();
+			$('.parallax').parallax();
+		});
+
+	</script>
+</body>
+
+</html>

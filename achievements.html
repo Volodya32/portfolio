@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link type="text/css" href="css/materialize.css" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<style>
+		* {
+			margin: 0;
+		}
+		.hh{
+			text-align: center;
+		}
+
+	</style>
+</head>
+
+<body>
+	<nav class="indigo">
+		<div class="new-wrapp indigo">
+			<a href="index.html" class="brand-logo">
+				<p class="flow-text asd">My portfolio</p>
+				
+			</a>
+			<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+			<ul class="right hide-on-med-and-down">
+
+				<li><a href="achievements.html" class="white-text">Мои достижения <i class="material-icons"></i></a></li>
+
+				<li><a href="my_work.html" class="white-text">Мои работы<i class="material-icons"></i></a></li>
+				<li><a href="me.html" class="white-text">Oбо мне<i class="material-icons"></i></a></li>
+			</ul>
+			
+			<ul class="side-nav indigo" id="mobile-demo">
+				<li><a href="achievements.hmtl" class="white-text">Мои достижения<i class="material-icons">face</i></a></li>
+
+				<li><a href="my_work.html" class="white-text">Мои работы<i class="material-icons">work
+					</i></a></li>
+					<li><a href="me.html" class="white-text">Oбо мне<i class="material-icons">account_box</i></a></li>
+			</ul>
+
+
+		</div>
+
+	</nav>
+		<div class="hh">
+		<h5 >Moи достижения </h5>
+		</div>
+	<div class="carousel">
+    <a class="carousel-item" href="#one!"><img src="1.png"></a>
+    <a class="carousel-item" href="#two!"><img src="2.png"></a>
+    <a class="carousel-item" href="#three!"><img src="3.png"></a>
+    <a class="carousel-item" href="#four!"><img src="4.png"></a>
+    <a class="carousel-item" href="#six!"><img src="5.png"></a>
+    <a class="carousel-item" href="#seven!"><img src="6.png"></a>
+    <a class="carousel-item" href="#eights!"><img src="7.png"></a>
+    
+  </div>
+  
+  
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="js/materialize.js"></script>
+	<script>
+		$(document).ready(function() {
+			$(".button-collapse").sideNav();
+			  $('.carousel').carousel();
+				$('.parallax').parallax();
+		});
+
+	</script>
+</body>
+
+</html>

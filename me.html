@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link type="text/css" href="css/materialize.css" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<style>
+		* {
+			margin: 0;
+		}
+		
+		.main {
+			height: 600px;
+			width: 1000px;
+			background-color: cornflowerblue;
+			margin-left: 170px;
+			margin-top: 100px;
+		}
+		
+		.h {
+			text-align: center;
+		}
+		
+		.image {
+			height: 400px;
+			width: 300px;
+			margin-left: 10px;
+		}
+		
+		.inform_text {
+			margin-left: 420px;
+		}
+
+	</style>
+</head>
+
+<body>
+	<nav class="indigo">
+		<div class="new-wrapper indigo">
+			<a href="index.html" class="brand-logo">
+				<p class="flow-text asd">My portfolio</p>
+
+			</a>
+			<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+			<ul class="right hide-on-med-and-down">
+
+				<li><a href="achievements.html" class="white-text">Мои достижения <i class="material-icons"></i></a></li>
+
+				<li><a href="my_work.html" class="white-text">Мои работы<i class="material-icons"></i></a></li>
+				
+				<li><a href="me.html" class="white-text">Oбо мне<i class="material-icons"></i></a></li>
+
+			</ul>
+
+			<ul class="side-nav indigo" id="mobile-demo">
+				<li><a href="achievements.html" class="white-text">Мои достижения<i class="material-icons">face</i></a></li>
+
+				<li><a href="my_work.html" class="white-text">Мои работы<i class="material-icons">work
+					</i></a></li>
+					<li><a href="me.html" class="white-text">Oбо мне<i class="material-icons">account_box</i></a></li>
+			</ul>
+
+
+		</div>
+
+	</nav>
+	<div class="row container">
+		<div class="col s12 m6">
+
+			<div class="card">
+				<div class="card-image waves-effect waves-block waves-light">
+					<img class="activator" src="iam.jpg">
+				</div>
+				<div class="card-content">
+					<span class="card-title activator grey-text text-darken-4">Владимир Слепцов<i class="material-icons right">more_vert</i></span>
+				</div>
+				<div class="card-reveal">
+					<span class="card-title grey-text text-darken-4">Обо мне<i class="material-icons right">close</i></span>
+					<p>Меня зовут Слепцов Владимир и мне 13 лет. Я учусь в Саха Гимназии города Якутска.Я програмирую с 11 лет. И мне это нравится.</p>
+				</div>
+			</div>
+		</div>
+		<div class="col s12 m6">
+
+			<div class="card">
+				<div class="card-image waves-effect waves-block waves-light">
+					<img class="activator" src="body.jpg">
+				</div>
+				<div class="card-content">
+					<span class="card-title activator grey-text text-darken-4">Почему я выбрал програмирование<i class="material-icons right">more_vert</i></span>
+				</div>
+				<div class="card-reveal">
+					<span class="card-title grey-text text-darken-4">програмирование<i class="material-icons right">close</i></span>
+					<p>Я выбрал програимирование потому что это очень интерсный вид работы .  Когда выросту я хочу стать програмистом какой нибудь компании. </p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="js/materialize.js"></script>
+	<script>
+		$(document).ready(function() {
+			$(".button-collapse").sideNav();
+			$('.parallax').parallax();
+		});
+
+	</script>
+</body>
+
+</html>
